@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body style="background-color: aqua;">
+    <header>
+        <div style="text-align: center;">
+            <h1>
+                <strong>Survey Form</strong>
+            </h1>
+        </div>
+    </header>
+    <main>
+        <form>
+     
+        <div width="50%" style="background-color: azure;">
+
+            <table  style="height: 540px; " align="center">
+                <tbody>
+                    <tr>
+                        <th colspan="2">
+                            <p> Let us know how we can improve freeCodeCamp  </p>
+                        </th>
+                    </tr>
+                    
+                    <tr>
+                        <th width="50%" align="end">
+                            <label> * Name </label>
+                        </th>
+                        <th style="text-align: start;">
+                            <input type="text" name="name" placeholder="Enter your name" />
+                        </th>
+                    </tr>
+                    <tr>
+                        <th width="50%" align="end">
+                            <label> * Email </label>
+                        </th>
+                        <th style="text-align: start;">
+                            <input type="email" name="email" placeholder="Enter your Email" />
+                        </th>
+                    </tr>
+                    <tr>
+                        <th width="50%" align="end">
+                            <label> * Age </label>
+                        </th>
+                        <th style="text-align: start;">
+                            <input type="number" name="age" placeholder="Age" />
+                        </th>
+                    </tr>
+                    <tr>
+                        <th width="50%" align="end">
+                            <label> Which option best describes your current role? </label>
+                        </th>
+                        <th style="text-align: start;">
+                            <select name="roles" >
+                                <option value="student">Student</option>
+                                <option value="teacher">Teacher</option>
+                                <option value="employer">Employer</option>
+                                <option value="pensioner">Pensioner</option>
+                            </select>
+                        </th>
+                    </tr>
+                    
+                    <tr>
+                        <th width="50%" align="end">
+                            <label> * How likely is that you would recommend 
+                                freeCodeCamp to a friend </label>
+                        </th>
+                        <th style="text-align: start;">
+                            <input id="1" type="radio" name="radio"  />
+                            <label for="1">Definitely</label>
+                            <br/>
+                            <br/>
+                            <input id="2" type="radio" name="radio"  />
+                            <label for="2">Maybe</label>
+                            <br/>
+                            <br/>
+                            <input id="3" type="radio" name="radio"  />
+                            <label for="3">Not sure</label>
+                        </th>
+                    </tr>
+                    
+                    <tr>
+                        <th width="50%" align="end">
+                            <label> What do you like most in FCC: </label>
+                        </th>
+                        <th style="text-align: start;">
+                            <select name="roles"  >
+                                <option value="a">Select an option</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                                <option value="d">D</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th width="50%" align="end">
+                            <label> Things that should be improved in the future
+                                (Check all that apply): </label>
+                        </th>
+                        <th style="text-align: start;">
+                            <input id="4" type="checkbox" name="checkbox"  />
+                            <label for="4">Front-end Projects</label>
+                            <br/>
+                            <br/>
+                            <input id="5" type="checkbox" name="checkbox"  />
+                            <label for="5">Back-end projects</label>
+                            <br/>
+                            <br/>
+                            <input id="6" type="checkbox" name="checkbox"  />
+                            <label for="6">Data Vizualization</label>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </form>
+    </main>
+</body>
+</html>

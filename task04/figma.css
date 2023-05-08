@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: rgb(246, 240, 240);
+}
+div[name="circle"] {
+    border-radius: 100%;
+    height: 80px;
+    text-align: center;
+    background: linear-gradient(to bottom,#4920cb,#4633ed);
+    
+    margin: 15px 40px;
+    padding: 9px 0;
+}
+div[name="number"] {
+    font-size: 30px;
+    padding-top: 18px;
+}
+
+div[name="numara"] {
+    font-size: small;
+}
+
+div[name="first"] {
+    background: linear-gradient(to bottom,#6642fe,#312ce8);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 230px;
+    height: 350px;
+
+}
+
+.grey {
+    color: rgb(184, 178, 178);
+}
+
+.white {
+    color: white;
+}
+
+[name="boyuk"] {
+    font-size: large;
+}
+
+[name="balaca"] {
+    font-size: small;
+}
+
+.sum {
+    padding: 10px 20px;
+    width: 200px;
+
+}
+
+[name="rctn"] {
+    background-color: rgba(215, 111, 111, 0.428);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+[name="mmry"] {
+     background-color:rgba(235, 203, 143, 0.433);
+     border-radius: 5px;
+     margin: 10px;
+}
+
+[name="vrbl"] {
+    background-color: rgba(171, 249, 171, 0.444);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+[name="vsl"] {
+    background-color: rgba(194, 194, 241, 0.372);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+[name="bottom"] > p {
+    background-color: rgb(12, 12, 81);
+    padding: 13px;
+    margin: 20px 15px;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+}
+
+[name="top"] > p {
+    padding-left: 10px;
+    color: rgb(12, 12, 81);
+}
+
+[name="p1"] {
+    color: rgb(228, 89, 89);
+    bottom: 10px;
+}
+[name="p2"] {
+    color: orange;
+}
+[name="p3"] {
+    color: rgb(79, 196, 79);
+}
+[name="p4"] {
+    color: rgb(55, 55, 209);
+}
+
+
+
+[name="pi1"] {
+    height: 15px;
+}
+[name="pi2"] {
+    height: 15px;
+}
+[name="pi3"] {
+    height: 15px;
+}
+[name="pi4"] {
+    height: 15px;
+}
+
+[name="reqem1"] {
+    padding-left: 60px;
+    color: rgb(12, 12, 81);
+}
+[name="reqem2"] {
+    padding-left: 67px;
+    color: rgb(12, 12, 81);
+}
+[name="reqem3"] {
+    padding-left: 81px;
+    color: rgb(12, 12, 81);
+}
+[name="reqem4"] {
+    padding-left: 83px;
+    color: rgb(12, 12, 81);
+}
+
+
+.sonraki {
+    font-size: small;
+    color: rgb(155, 153, 153);
+}
